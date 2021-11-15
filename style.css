@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2cb3f3;
+    width: 100vw;
+}
+.h1-txt h1{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+}
+.h1-txt {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.p-txt h1{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+}
+.p-txt {
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    font-size: 15px;
+    font-weight: bold;
+}
+main{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box-1{
+    width: 40vw;
+    height: 65vh;
+    background-color: aliceblue;
+    border-radius: 15% 15% 0% 0%;
+    position: absolute;
+    margin-top: 1%;
+    margin-right: 7%;
+}
+.ball-1 {
+    width: 30vw;
+    height: 60vh;
+    border-radius: 50%;
+    position: absolute;
+    background: #FFE1C9;
+    margin-right: 7%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.ball-2 {
+    width: 03vw;
+    height: 06vh;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+.ball-3 {
+    width: 03vw;
+    height: 06vh;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+form{
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+}
+input[type="email"] {
+    width: 20vw;
+    height: 6vh;
+    border: 3px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type="password"] {
+    width: 20vw;
+    height: 6vh;
+    border: 3px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-mae{
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 4%;    
+} 
+.button1 p:hover{
+    display: flex;
+    font-weight: 900;
+    cursor: pointer;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 9vh;
+    border: 1px solid green;
+    position: absolute;
+    background-color: green;
+    border-radius: 15%;
+    border-style: outset;
+    text-shadow: none;
+    font-size: 20px;
+    color: ivory;
+    font-weight: bold;
+    margin-top: 34%;
+    margin-right: 6%;
+}
